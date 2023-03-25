@@ -38,7 +38,8 @@ const student = new mongoose.Schema({
     hours_spent: Number
   },
 others: String,
-ngos: Number
+ngos: Number,
+activity_points: "10"
 }, { collection: 'student' });
 
 // Create a model for the collection
